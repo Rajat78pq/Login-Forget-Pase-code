@@ -18,8 +18,8 @@ const ForgetOperation =async(req:Request, res:Response)=>{
                 host: 'smtp.ethereal.email',
                 port: 587,
                 auth: {
-                    user: 'bloggerrejo@gmail.com',
-                    pass: 'Rajat@123'
+                    user: testAccount.user,
+                    pass: testAccount.pass
                 }
             });
 
